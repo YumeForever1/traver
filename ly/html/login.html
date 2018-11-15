@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport content=device-width initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/color_text.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <style>
+        *{margin:0px;padding:0px;}
+        body{
+            background:url("../image/login_img/bj.jpg") no-repeat;
+            background-size: cover;
+        }
+        #text1{
+            font-size:45px;
+            color:#fff;
+            text-align: center;
+            margin-top: 250px;
+        }
+        div img{
+            width:30px;
+            height:30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!--------------头部log以及文字----------------->
+        <div class="text-left">
+            <a href="#" ><img src="../image/login_img/log.png"/></a>
+            <span class="text-white mt-1">Yume Give you the best experience</span>
+            
+        </div>
+        <!-------------导航栏------------------------->
+        <div id="dd1">
+            <nav class="navbar navbar-expand-sm  navbar-dark " style="width:80px" id="dd2">
+                <!---------------不隐藏-------------------------------->
+                <a href="#">↑↑↑</a>
+                <a href="#">Click</a>
+                <!-----------------小屏幕时候显示的按钮,大屏幕隐藏------------------------------------>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#content">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!---------------大屏幕水平显示小屏幕隐藏------------------------------------->
+                <div id="content" class="collapse navbar-collapse">
+                    <ul class="navbar-nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link" href="/index.html">homepage</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">moutain</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">water</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">prairie</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p id="text1">Welcome to my <a href="/index.html">homepage</a></p>
+        </div>
+        
+        <!---->
+        <!------------登录页面------------------------>
+        <div class="">
+            <form action="" class="">
+                <div class="row ">
+                    <div class="col col-3 text-right text-white font-weight-bold" >user name：</div>
+                    <div class="col col-6"><input type="text" class="form-control" placeholder="Please enter a user name" id="Name"></div>
+                    <div class="col col-3 my_dc font-weight-bold" id="TexT1">The username contains the alphanumeric 6~10 bits</div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col col-3 text-right text-white font-weight-bold ">user pwd：</div>
+                    <div class="col col-6"><input type="password" class="form-control" placeholder="Please enter a password"  id="Pwd"></div>
+                    <div class="col col-3 my_dc font-weight-bold" id="TexT2">The password contains 8-16 digits</div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col col-3 text-right text-white font-weight-bold">Email：</div>
+                    <div class="col col-6"><input type="email" class="form-control" placeholder="Please enter a email"></div>
+                    <div class="col col-3 my_dc font-weight-bold" style='color:#ff0;'>Please note the mailbox format you entered</div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col col-3 text-right text-white font-weight-bold">Phone</div>
+                    <div class="col col-6"><input type="phone" class="form-control" placeholder="Please enter the correct phone number" id="Phone"></div>
+                    <div class="col col-3 my_dc font-weight-bold" id="TexT3">Please note the input mobile phone format</div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12 text-center">
+                        <button class="btn btn-info">注册</button>
+                        <button class="btn btn-danger">取消</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    <script src="../js/login.js"></script>
+</body>
+</html>

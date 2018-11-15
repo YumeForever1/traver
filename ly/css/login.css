@@ -1,0 +1,16 @@
+*{margin:0;padding:0;}
+a:hover{
+    text-decoration: none;
+}
+#dd1{
+    position: relative;
+}
+#dd2{
+    position:absolute;
+    bottom:265px;
+    overflow: hidden;
+    transition:all .5s linear;
+}
+#TexT4{
+    color:ff0;
+}

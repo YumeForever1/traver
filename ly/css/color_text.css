@@ -1,0 +1,188 @@
+.my_color_gray{
+	color:#666;
+}
+.my_color_333{
+	color:#333333;
+}
+.my_color_80{
+	color: #808080;
+}
+.my_color_dc{
+	color: #dc3545;
+}
+.my_color_0AA1ED{
+	color:#0aa1ed;
+}
+.my_color_B8{
+	color:#b8b8b8;
+}
+.my_text_weight{
+	font-weight: bold;
+}
+.my_family_Arial{
+	font-family:Arial;
+}
+.my_size_12{
+	font-size: 12px;
+}
+.my_size_13{
+	font-size: 13px;
+}
+.my_size_14{
+	font-size: 14;
+}
+.my_size_15{
+	font-size: 15px;
+}
+.my_size_16{
+	font-size: 16px;
+}
+.my_size_20{
+	font-size: 20px;
+}
+.my_size_24{
+	 font-size: 24px;
+ }
+.my_size_32{
+	font-size: 32px;
+}
+.my_size_34{
+	font-size: 34px;
+}
+.my_border_1{
+	border:1px solid #fff;
+}
+.my_bgcolor_e8{
+	background:#e8e8e8;
+}
+.my_bgcolor_f0{
+			background:-webkit-linear-gradient(top, #f0f0f0 0%, #e0e0e0 100%)
+}
+.my_bgcolor_80{
+	background:#808080;
+}
+.my_bgcolor_0AA1ED{
+	background:#0aa1ed;
+}
+.my_btn_gray{
+	width:1.5rem;
+	background:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+}
+.my_input_w{
+	width: 2rem;
+}
+.my_input_w2{
+	width: 2.5rem;
+	height: 2.3rem;
+}
+.my_a{
+	display:block;
+	width:130px;
+	height:40px;
+	background:linear-gradient(0deg,#27b1f6 0%,#0aa1ed 100%);
+	text-decoration:none;
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+	font-family:'黑体';
+	font-size:16px;
+	border-radius:2px;
+}
+.my_a2{
+	display:block;
+	width:32px;
+	height:33px;
+	background:linear-gradient(0deg,#27b1f6 0%,#0aa1ed 100%);
+	text-decoration:none;
+	color:#fff;
+	text-align:center;
+	line-height:15px;
+	font-family:'黑体';
+	font-size:16px;
+	border-radius:6px;
+}
+.my_a3{
+	display:block;
+	width:250px;
+	height:36px;
+	background:#fff;
+	text-decoration:none;
+	color:#666;
+	text-align:center;
+	line-height:0;
+	font-family:'黑体';
+	font-size:12px;
+	border:2px solid rgb(102,102,102);
+}
+.my_a4{
+	display: block;
+	width:130px;
+	height:40px;
+	text-align: center;
+	line-height:36px;
+	color: #0AA1ED;
+	background:-webkit-linear-gradient(top, #f0f0f0 0%, #e0e0e0 100%);
+	font-size:16px;
+	border-radius: 2px;
+}
+.my_a4:hover{
+	text-decoration: none;
+}
+.my_a3:hover{
+	text-decoration: none;
+	border: 2px solid rgb(10,161,237);
+	color: rgb(10,161,237);
+}
+.my_a:hover{
+	text-decoration: none;
+}
+.my_img1{
+	width:18rem;
+	height:15rem;
+	margin-left:-15rem;
+	margin-top:2rem;
+	transition:1s;
+}
+.my_img1:hover{
+	transform:scale(1.1,1.1);
+}
+@media screen and (max-width: 767px;){
+	div.card{
+		height:40rem;
+	}
+	img.my_img1{
+		width:24rem;
+		height:20rem;
+		transition:1s;
+	}
+}
+.my_img2{
+	width:18rem;
+	height:17rem;
+	margin-left:-15rem;
+	margin-top:2rem;
+	transition:1s;
+}
+.my_img2:hover{
+	transform:scale(1.1,1.1);
+}
+.my_img3{
+	transition:1s;
+}
+.my_img3:hover{
+	transform:scale(1.1);
+}
+.my_img4{
+	transition:1s;
+}
+.my_img4:hover{
+	transform:scale(1.1,1.1);
+}
+.my_img5{
+	width:84px;
+	height:84px;
+}
+.my_img5:hover{
+	border:1px solid #CECFCE;
+	transform:scale(1.1,1.1);
+}

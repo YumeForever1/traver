@@ -1,0 +1,66 @@
+*{margin:0px;padding:0px;}
+#slider{ 
+    height:1072px;
+    position:relative;
+}
+#slider>img{   
+    width:165%;
+    position:absolute; top:0;left:0;
+    opacity: 0;
+    transition:all .5s linear
+}
+#slider>img.show{
+    opacity: 1;
+    z-index: 10;
+}
+#t_title{
+    width:166%;
+    background:#000;
+}
+#t_title>a{
+    color:#fff;
+    margin-left:250px;
+    padding-top:6px;
+    padding-bottom:6px;
+}
+#t_title>a:hover{
+    text-decoration: none;
+    color:#c5c6c9;
+}
+#t_title>ul{
+    margin-left:5rem;
+}
+/*************主体部分************************ */
+#subject>h2{
+    text-align:center;
+    margin-top:5rem;
+    margin-left:42rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:normal;
+    font-size:4rem;
+}
+#subject>p{
+    font-size:18px;
+    text-align: center;
+    margin-left:40rem;
+    color:#333;
+    margin-top:2rem;
+}
+#subject>img{
+    width:445px;
+    height:376px;
+    margin-left:20rem;
+    margin-top:5rem;
+}
+#subject>h3{
+    position:relative;
+    bottom:380px;
+    left:800px;
+}
+#subject>.p2{
+    position:relative;
+    bottom:380px;
+    margin-left:50rem;
+    margin-bottom:160rem;
+    color:#A7A7A7;
+}
