@@ -31,6 +31,10 @@
     margin-left:5rem;
 }
 /*************主体部分************************ */
+#subject{
+    width:1140px;
+    height:742px;
+}
 #subject>h2{
     text-align:center;
     margin-top:5rem;
@@ -63,4 +67,129 @@
     margin-left:50rem;
     margin-bottom:160rem;
     color:#A7A7A7;
+    width:63%;
+    margin-bottom: 0px;
+}
+#bj-fiex1{
+    background-image: url(../image/index_img/service.jpg) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:675px;
+    width:167%;
+}
+#bj-fiex2{
+    background-image: url(../image/index_img/event.jpg) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:675px;
+    width:167%;
+}
+#bj-fiex1>h3{
+    color:#fff;
+    font-size:35px;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top:30px;
+    margin-right:120px;
+}
+#bj-fiex1>.f2_p1{
+    color:#D2D1D1;
+    font-size:18px;
+    font-weight:300;
+    padding-top:30px;
+    text-align: center;
+    margin-right:90px;
+}
+#bj-fiex1>img{
+    width:400px;
+    height:400px;
+    position:relative;
+    left:1050px;
+    top:-290px;
+    margin-left:0px;
+}
+#bj-fiex2>h3{
+    color:#fff;
+    font-size: 35px;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-right:150px;
+    padding-top:50px;
+}
+#bj-fiex2>p.f2_p2{
+    color:#D2D1D1;
+    font-size:18px;
+    font-weight:300;
+    padding:10px 0 50px;
+    text-align: center;
+    margin-right:160px;
+}
+/* ***2L盒子效果** */
+.box_box{    
+    background-color:rgba(0,0,0,0.3);
+    transition:all .5s linear;
+}
+.box_box:hover{
+    background-color:rgba(0, 0, 0, 0.8)
+}
+.box_title{
+    text-align: center;
+    padding-top:20px;
+    color:#fff;
+}
+.f2_p3{
+    padding:30px;
+    padding-top:10px;
+    color:#fff;
+}
+/******手风琴效果********/
+.accrdion{
+    width:550px;
+    margin-top:80px;
+    margin-left:400px;
+}
+.accrdion>.title{
+    color:#fff;
+    font-weight: bold;
+    cursor:pointer;
+    padding-top:20px;
+}
+.accrdion>.content{
+    font-size: 15px;
+    font-weight: 100;
+    color:#fff;
+}
+/* .f2_img{
+    position:absolute;
+    top:2073px;
+    right:10px;
+}
+#bj-fiex1{
+    position:relative;
+} */
+/******3F************** */
+#gallery{
+    box-sizing: border-box;
+    display: block;
+}
+#gallery>h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+    color:inherit;
+    text-align: center;
+    margin-left:600px;
+    padding-top:60px;
+}
+#gallery>p{
+    font-size: 18px;
+    font-weight: 300;
+    padding:10px 0 50px;
+    color:#333;
+    text-align: center;
+    margin-left:550px;
 }
