@@ -13,3 +13,16 @@ function task(){
 
 }
   setInterval(task,5000);
+//2f 手风琴效果
+$(".content:gt(0)").hide();
+$(".accrdion").on('click',".title",function(){
+    var $title=$(this);
+    if($title.next().is(":visible"))
+        $title.next().slideUp()
+    else{
+        $title.next()
+              .slideDown()
+              .siblings(".content")
+              .slideUp()
+    }
+})
