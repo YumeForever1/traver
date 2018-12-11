@@ -1,3 +1,4 @@
+/* *****************颜色**************************** */
 .my_color_gray{
 	color:#666;
 }
@@ -16,12 +17,14 @@
 .my_color_B8{
 	color:#b8b8b8;
 }
+/* *****************字体、粗体************************** */
 .my_text_weight{
 	font-weight: bold;
 }
 .my_family_Arial{
 	font-family:Arial;
 }
+/* *****************字体大小************************** */
 .my_size_12{
 	font-size: 12px;
 }
@@ -49,6 +52,7 @@
 .my_size_34{
 	font-size: 34px;
 }
+/* *****************边框、背景颜色************************** */
 .my_border_1{
 	border:1px solid #fff;
 }
@@ -64,6 +68,7 @@
 .my_bgcolor_0AA1ED{
 	background:#0aa1ed;
 }
+/* *****************按钮样式、输入框************************** */
 .my_btn_gray{
 	width:1.5rem;
 	background:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
@@ -136,6 +141,7 @@
 .my_a:hover{
 	text-decoration: none;
 }
+/* *****************图片************************** */
 .my_img1{
 	width:18rem;
 	height:15rem;
@@ -146,7 +152,7 @@
 .my_img1:hover{
 	transform:scale(1.1,1.1);
 }
-@media screen and (max-width: 767px;){
+@media screen and (max-width: 767px){
 	div.card{
 		height:40rem;
 	}
@@ -185,4 +191,20 @@
 .my_img5:hover{
 	border:1px solid #CECFCE;
 	transform:scale(1.1,1.1);
+}
+/* *****************内外边距、定位************************** */
+.my_ml25{
+	margin-left:100px;
+}
+.opacity_0{
+	opacity: 0;
+}
+.opacity_1{
+	opacity: 0;
+}
+.Block{
+	display: block !important;
+}
+.None{
+	display: none;
 }

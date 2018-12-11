@@ -1,25 +1,30 @@
 *{margin:0px;padding:0px;}
+div.container{
+    
+}
 #slider{ 
-    height:1072px;
+    height:1170px;
     position:relative;
 }
 #slider>img{   
-    width:165%;
+    width:100%;
     position:absolute; top:0;left:0;
     opacity: 0;
-    transition:all .5s linear
+    transition:all .5s linear;
+    overflow:scroll;
+    height:100%;
 }
 #slider>img.show{
     opacity: 1;
     z-index: 10;
 }
 #t_title{
-    width:166%;
+    width:100%;
     background:#000;
+    justify-content: center
 }
 #t_title>a{
     color:#fff;
-    margin-left:250px;
     padding-top:6px;
     padding-bottom:6px;
 }
@@ -32,8 +37,7 @@
 }
 /*************主体部分************************ */
 #subject{
-    width:1140px;
-    height:742px;
+    width:100%;
 }
 #subject>h2{
     text-align:center;
@@ -75,16 +79,18 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height:675px;
-    width:167%;
+    padding-bottom:5rem;
+    width:100%;
+    height:100%;
 }
 #bj-fiex2{
     background-image: url(../image/index_img/event.jpg) ;
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height:675px;
-    width:167%;
+    padding-bottom:5rem;
+    width:100%;
+    height:100%;
 }
 #bj-fiex1>h3{
     color:#fff;
@@ -93,7 +99,6 @@
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding-top:30px;
-    margin-right:120px;
 }
 #bj-fiex1>.f2_p1{
     color:#D2D1D1;
@@ -101,15 +106,14 @@
     font-weight:300;
     padding-top:30px;
     text-align: center;
-    margin-right:90px;
 }
 #bj-fiex1>img{
     width:400px;
     height:400px;
-    position:relative;
+    /* position:relative;
     left:1050px;
     top:-290px;
-    margin-left:0px;
+    margin-left:0px; */
 }
 #bj-fiex2>h3{
     color:#fff;
@@ -117,7 +121,6 @@
     font-weight: normal;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    margin-right:150px;
     padding-top:50px;
 }
 #bj-fiex2>p.f2_p2{
@@ -126,7 +129,6 @@
     font-weight:300;
     padding:10px 0 50px;
     text-align: center;
-    margin-right:160px;
 }
 /* ***2L盒子效果** */
 .box_box{    
@@ -149,6 +151,7 @@
 /******手风琴效果********/
 .accrdion{
     width:550px;
+    height:270px;
     margin-top:80px;
     margin-left:400px;
 }
@@ -182,7 +185,6 @@
     font-weight: normal;
     color:inherit;
     text-align: center;
-    margin-left:600px;
     padding-top:60px;
 }
 #gallery>p{
@@ -191,5 +193,262 @@
     padding:10px 0 50px;
     color:#333;
     text-align: center;
-    margin-left:550px;
+}
+/* 相框图片 */
+/* ul>li{
+    list-style: none;
+} */
+#photo{
+    width:300px;
+    height:200px;
+    /* overflow: hidden; */
+}
+#gallery .row{
+    text-align: center
+}
+/* 4f top*/
+#testimonials{
+    height:800px;
+    background-image:url(../image/index_img/test1.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-attachment: fixed;
+    width:100%;
+    height:100%;
+    padding-bottom:4rem;
+}
+#testimonials>div.row>h3.col-12{
+    text-align: center;
+    color:#fff;
+    font-size: 35px;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    margin-top:50px;
+}
+#testimonials>div.row>p.col-12{
+    text-align: center;
+    color:#fff;
+    font-size:18px;
+    font-weight: 300;
+    padding-top:2rem;
+}
+#testimonials>div.row>div.col-3{
+    width:330px;
+    height:480px;
+    margin-left:30px;
+    background-color:rgba(0, 0, 0, 0.4);
+    border:1px solid #000;
+    transition: all .5s linear;
+}
+#testimonials>div.row>div.col-3:hover{
+    background-color:rgba(0, 0, 0, 0.7);
+    border:1px solid #666;
+}
+#testimonials>div.row>div.col-3>div{
+    text-align:center;
+}
+#testimonials>div.row>div.col-3 img{
+    margin-top:20px;
+    margin-left:10rem;
+    display: table-cell;
+    margin-bottom:1rem;
+    text-align: center;
+}
+#testimonials>div.row>div.col-3>h3{
+    color:#fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight:normal;
+    font-family: 'Montserrat', sans-serif;
+}
+#testimonials>div.row>div.col-3>p{
+    font-size: 16px;
+    font-weight: 100;
+    color:#fff;
+    padding:30px;
+}
+/* 4f bottom */
+#contact{
+    height:600px;
+    background-image:url(../image/index_img/contact.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-attachment: fixed;
+    width:100%;
+    height:100%;
+    padding-bottom:2rem;
+}
+#contact>div.row>h3.col-12{
+    text-align: center;
+    color:#fff;
+    font-size:35px;
+    font-weight: normal;
+    padding-top:130px;
+    font-family: 'Montserrat', sans-serif;
+}
+#contact>div.row>p.col-12{
+    font-size: 18px;
+    font-weight:100;
+    color:#fff;
+    text-align: center;
+    padding-top:20px;
+}
+#contact>div.row>div.col-12.row>input.col-2{
+    border:1px solid rgba(255,255,255,0.03);
+    border-radius: 0px;
+    font-size: 19px;
+    color:#fff;
+    background-color:rgba(0, 0, 0, 0.48);
+    height:50px;
+}
+#contact>div.row>div.col-12.row>input.col-9{
+    border:1px solid rgba(255,255,255,0.03);
+    border-radius: 0px;
+    font-size: 19px;
+    color:#fff;
+    background-color:rgba(0, 0, 0, 0.48);
+    height:150px;
+    margin-top:30px;
+}
+#contact>div.row>div.col-12.row>button.col-9{
+    border: solid 2px #fff;
+    color:#a29d26;
+    background:rgba(0, 0, 0, 0);
+    font-size:21px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top:20px;
+    padding:10px;
+    transition:all .5s linear;
+    cursor: pointer;
+}
+#contact>div.row>div.col-12.row>button.col-9:hover{
+    background:#fff;
+}
+/*底部1*/
+#footers{
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.9)
+}
+#footers>div.row>p.col-12{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size:30px;
+    font-weight: 500;
+    padding-top:30px;
+    color:#fff;
+}
+#footers>div.row>hr.col-12{
+    background:#fff;
+}
+#footers>div.row>div.col-12>p.col-2,#footers>div.row>div.col-12>p.col-3{
+    font-size:25px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+}
+#footers>div.row>div.col-12>img{
+    width:50px;
+    height:30px;
+}
+#footers>div.row>div.col-12>div.ml-3{
+    font-size: 16px;
+    font-weight: 100;
+    color:#fff;
+    display: inline;
+    padding-left: 100px;
+}
+#footers>div.row>div.col-5>p.col-4{
+    color:#999;
+    font-size:13px;
+    line-height: 25px;
+    font-weight: 100;
+}
+/* 底部2 */
+#container>div.row>div.footer-left>p{
+    margin-top:15px;   
+}
+#container>div.row>div.footer-left>p.fonter-left-p1{
+    color:#fff;
+    font-size:16px;
+    font-weight: 100;
+    display: inline-block;
+}
+#container>div.row>div.footer-left>p.fonter-left-p2{
+    color:#fff;
+    font-size:16px;
+    font-weight: 100;
+    display: inline-block;
+}
+#container>div.row>div.footer-left>p.fonter-left-p3{
+    color:#fff;
+    font-size:16px;
+    font-weight: 100;
+    display: inline-block;
+}
+#container>div.row>div.footer-center>p{
+    font-size:15px;
+    line-height:25px;
+    color:#999;
+    font-weight: 100;
+}
+#container>div.row>div.footer-center>input{
+    background-color:rgba(0, 0, 0, 0.25);
+    border-radius:0px;
+    text-align:center;
+    font-size:17px;
+    color:#fff;
+    width:100%;
+    height:34px;
+    display: block;
+    border:1px solid #fff;
+    margin-top:10px;
+}
+#container>div.row>div.footer-right>p{
+    
+    font-size:15px;
+    line-height: 25px;
+    font-weight: 100;
+    color:#999;
+}
+#container>div.row>hr.col-12{
+    background-color:#fff;
+}
+#container>p{
+    text-align:center;
+    color:#fff;
+}
+
+
+
+
+/*修改布局1F*/
+#subject{
+    height:836px;
+    z-index: auto;
+    display: inline;
+}
+#subject>div.row>h2.col-12{
+    text-align:center;
+    margin-top:5rem;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight:normal;
+    font-size:4rem;
+}
+#subject>div.row>p.col-12{
+    font-size:18px;
+    text-align: center;
+    
+    color:#333;
+    margin-top:2rem;
+}
+#subject>div.row>div.col-6>img{
+    margin-left:20rem;
+    margin-top:5rem;
+}
+#subject>div.row>div.col-6>div.col-10>p.col-4{
+    overflow: hidden;
+}
+#subject>div.row>div.col-12>div.col-3>img{
+    margin-bottom:5rem;
 }
