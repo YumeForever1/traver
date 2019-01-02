@@ -26,3 +26,7 @@ $(".accrdion").on('click',".title",function(){
               .slideUp()
     }
 })
+//3f 相框效果
+$(".a_left_bottom").on('click',function(){
+    $("#photo").addClass("my_buttom")
+})

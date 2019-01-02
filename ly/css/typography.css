@@ -65,3 +65,168 @@ div.container>div.Pagination>h3.bars{
     margin-bottom: 0.8em;
     font-weight: 500;
 }
+/* 选择条 */
+div.container>div.Breadcrumbs>h3.bars{
+    color:#00c6d7;
+    font-family: 'Gabriela', serif;
+    margin-bottom: 0.8em;
+    font-weight: 500;
+}
+.breadcrumb > li + li:before {
+    color: #CCCCCC;
+    content: "/ ";
+    padding: 0 5px;
+}
+/* 提示点 */
+div.container>div.Badges>h3.bars{
+    color:#00c6d7;
+    font-family: 'Gabriela', serif;
+    margin-bottom: 0.8em;
+    font-weight: 500; 
+}
+div.container>div.Badges>div.row>div.row>div-col-8,div.container>div.Badges>div.row>div.row>div-col-4{
+    border:1px solid #CCCCCC;
+}
+/* input输入框 */
+div.container>h3.bars{
+    color:#00c6d7;
+    font-family: 'Gabriela', serif;
+    margin-bottom: 0.8em;
+    font-weight: 500; 
+}
+div.input-group>span.input-group-addon,div.input-group-lg>span.input-group-addon{
+    white-space: nowrap;
+    vertical-align: middle;
+    display: table-cell;
+    padding:6px 12px;
+    font-size:14px;
+    font-weight:normal;
+    line-height: 2;
+    color:#fff;
+    text-align: center;
+    background-color:#666;
+    border:1px solid  #ccc;
+    border-redius:4px;
+}
+div.input-group-lg>span.input-group-addon{
+    height:46px;
+    padding:10px 16px;
+    font-size: 18px;
+    line-height: 2;
+    border-radius: 6px;
+}
+/* table表格 */
+#tables>h3.bars{
+    color:#00c6d7;
+    font-family: 'Gabriela', serif;
+    margin-bottom: 0.8em;
+    font-weight: 500; 
+}
+#tables>p{
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    color:#333;
+}
+.table-danger{
+    background:#fff;
+}
+.table-active{
+    background-color:#f9f9f9;
+}
+/* footer底部 */
+div.footer{
+    background: url(../image/index_img/b1.jpg) no-repeat 0px 0px;
+    padding:10em 0;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+div.footer>div.footer-bkgd>div.container{
+    display: flex;
+    justify-content: center;
+}
+div.footer p,div.footer h3{
+    color:#fff;
+}
+div.footer h3{
+    font-size:27px;
+    margin-bottom:40px;
+    font-family: 'Gabriela', serif;
+}
+div.footer p{
+    font-size:14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top:1em;
+}
+div.footer>div.container a{
+    color:#ff7900;
+    transition: all .5s linear;
+}
+div.footer>div.container a:hover{
+    color:#fff;
+}
+div.footer input{
+    border:1px solid transparent;
+    border-bottom:1px solid #ff7900;
+    background:none;
+    width:100%;
+    padding:1em;
+    color:#fff;
+    font-size: 14px;
+    outline: none;
+    margin-bottom:2em;
+    transition:all .5s linear;
+}
+div.footer input:hover{
+    border:1px solid #ff7900;
+    border-bottom:1px solid #00c6d7;
+}
+div.footer button{
+    border:none;
+    background:#00c6d7;
+    width:100%;
+    color:#fff;
+    font-size: 20px;
+    padding:1em;
+    margin-top:2em;
+    transition: all .5s linear;
+    cursor: pointer;
+}
+div.footer button:hover{
+    background:#ff7900;
+}
+div.footer img{
+    margin-top:3em;
+    transition:all .5s linear;
+}
+div.footer img:hover{
+    transform: rotateX(180deg)
+}
+/* 底部导航部分          .*/
+div.footer-bottom>div.col-11,div.footer-bottom>div.col-1{
+    margin-top:5em;
+    background: #00c6d7;
+    padding:1em 0;
+}
+div.footer-bottom>div.col-11>a.col-4{
+    color:#fff;
+    font-size:28px;
+}
+div.footer-bottom>div.col-11>a.col-1{
+    color:#fff;
+    font-size:14px;
+    margin-top:1em;
+    transition: all .5s linear;
+}
+div.footer-bottom>div.col-11>a.mytabbar{
+    transform: rotate(-92deg);
+    position: relative;
+    bottom:2em;
+}
+div.footer-bottom>div.col-11>a.col-1:hover{
+    color:#333;
+}
+/* 最底部注释 */
+div.footer-bottom>p{
+    text-align: center;
+    font-size: 14px;
+}
